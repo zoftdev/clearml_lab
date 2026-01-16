@@ -9,7 +9,7 @@ local_path=data.get_local_copy()
 
 print(local_path)
 task=Task.init(project_name="titanic_demo", task_name="train the featurestore", reuse_last_task_id=False )
-
+task.set_base_docker(docker_image="nvidia/cuda:12.6.3-cudnn-runtime-ubuntu24.04 ")
 #list file in directory
 import os
  
