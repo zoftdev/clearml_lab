@@ -8,5 +8,5 @@ dependencies = [
     "clearml>=2.1.2",
     "clearml-session>=0.17.0",
     "ipykernel>=7.1.0",
-    "pandas>=2.3.3",
+    "pandas==2.0.3",
 ]
